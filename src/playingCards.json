@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "King Clubs",
+        "image": "assets/KC.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Queen Diamonds",
+        "image": "assets/QD.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "King Hearts",
+        "image": "assets/KH.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+    "name": "Queen Spades",
+        "image": "assets/QS.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Jack Clubs",
+        "image": "assets/JC.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "King Diamonds",
+        "image": "assets/KD.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Jack Hearts",
+        "image": "assets/JH.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Jack Spades",
+        "image": "assets/JS.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Queen Clubs",
+        "image": "assets/QC.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "name": "Jack Diamonds",
+        "image": "assets/JD.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "name": "Queen Hearts",
+        "image": "assets/QH.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "name": "King Spades",
+        "image": "assets/KS.png",
+        "clicked": false
+    }
+]
