@@ -10,4 +10,7 @@
     grid-template-columns: repeat(4, 1fr);
     width: 70%;
     grid-gap: 25px;
+    width: 50%;
+    
+    
   }
