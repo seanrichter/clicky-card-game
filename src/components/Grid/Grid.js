@@ -1,20 +1,20 @@
 import React, {Component} from "react";
 import "./Grid.css";
-import femmeBlocks from "../../playingCards.json";
+import cardBlocks from "../../playingCards.json";
 import Card from "../Card";
 import Header from "../Header/Header";
 
 
 class Grid extends Component {
     state = {
-        playingCards: femmeBlocks,
+        playingCards: cardBlocks,
         score: 0
     }
 
     resetGame = () => {
         this.setState({
             score: 0,
-            playingCards: femmeBlocks
+            playingCards: cardBlocks
         })      
     }
 
@@ -37,8 +37,8 @@ class Grid extends Component {
 
     handleClick = name => {
         let guessedCorrect = false;
-        const newplayingCards = this.state.playingCards.map(femme => {
-           const newPic = {...femme};
+        const newplayingCards = this.state.playingCards.map(card => {
+           const newPic = {...card};
            if (newPic.name === name) {
                if(!newPic.clicked){
                    console.log("Already guessed------------");
@@ -67,13 +67,13 @@ class Grid extends Component {
                 <Header score={this.state.score}/>
                 <div className="gridWrapper">
                     <div className="grid">
-                    {this.state.playingCards.map(femme => {
+                    {this.state.playingCards.map(card => {
                             return (<Card 
-                            name={femme.name}
-                            key={femme.name} 
+                            name={card.name}
+                            key={card.name} 
                             handleClick={this.handleClick}
-                            src={femme.image} 
-                            alt={femme.name}  
+                            src={card.image} 
+                            alt={card.name}  
                         />)
                         })}
                     </div>
